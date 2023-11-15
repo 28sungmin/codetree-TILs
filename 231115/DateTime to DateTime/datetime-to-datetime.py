@@ -10,4 +10,7 @@ minutes = c
 total = day_min + hour_min + minutes
 part = 11 * 60 + 11
 
-print(total - part)
+if (total - part < 0):
+    print(-1)
+else:
+    print(total - part)
