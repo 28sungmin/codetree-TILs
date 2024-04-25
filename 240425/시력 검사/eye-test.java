@@ -12,7 +12,7 @@ public class Main {
         if (leye >= 1.0 && reye >= 1.0)
             System.out.println("High");
         else if (leye >= 0.5 && reye >= 0.5)
-            System.out.println("Midde");
+            System.out.println("Middle");
         else 
             System.out.println("Low");
     }
