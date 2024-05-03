@@ -9,9 +9,8 @@ public class Main {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        for (i = a; i <= b; i++) {
-            if (i % 2 == 1)
-                System.out.printf("%d ", i);
+        for (i = a; i <= b; i += 2) {
+            System.out.printf("%d ", i);
         }
     }
 }
