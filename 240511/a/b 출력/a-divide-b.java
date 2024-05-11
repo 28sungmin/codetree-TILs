@@ -9,9 +9,10 @@ public class Main {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        int num = a % b;
-        int rst = num / b;
+        int rst = a / b;
         System.out.printf("%d.", rst);
+        
+        int num = a % b;
         for (int i = 1; i <= 20; i++) {
             num *= 10;
             rst = num / b;
