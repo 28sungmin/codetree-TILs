@@ -20,7 +20,7 @@ public class Main {
             else {
                 shr = i / 10;
                 rem = i % 10;
-                if (i % 3 == 0 || shr % 3 == 0 || rem % 3 == 0)
+                if (i % 3 == 0 || shr % 3 == 0 || (rem % 3 == 0 && rem != 0))
                     System.out.printf("%d ", 0);
                 else 
                     System.out.printf("%d ", i);
