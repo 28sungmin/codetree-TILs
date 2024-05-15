@@ -9,7 +9,7 @@ public class Main {
         while (true) {
             int n = sc.nextInt();
 
-            if (n / 10 >= 3 || n / 10 == 1) break;
+            if (n / 10 != 2) break;
             sum += n;
             cnt++;
         }
